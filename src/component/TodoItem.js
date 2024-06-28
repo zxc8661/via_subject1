@@ -49,7 +49,7 @@ const Text = styled.div`
     flex:1;
     font-size:15px;
     color:#495057;
-    width:300px;
+    width:120%;
     
    display:${props=>
         (props.editing?"none":"inline")
@@ -67,7 +67,7 @@ const Change =styled.div`
 
 
 const ChangeText=styled.input`
-    width:250px;
+    width:70%;
     margin-right:10px;
     display:${props=>(props.editing?'inline':'none')};
 `
@@ -77,6 +77,9 @@ const ChangeButton=styled.button`
     color:#F9FFFF;
     border-color:slateblue;
     margin-right:30px;
+    font-size:11px;
+    width:15%;
+    height:100%;
     display:${props=>(props.editing?'inline':'none')};
 `
 

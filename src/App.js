@@ -7,7 +7,7 @@ import TodoList from './component/TodoList';
 import { TodoProvider ,useTodoState} from './TodoContext';
 
 const GlobalStyle = createGlobalStyle`
-  body {
+
     background-image: linear-gradient(to right bottom, slateblue, thistle);
     margin: 0 auto;
     height: 100vh;
@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-  }
+  
 `;
 
 
