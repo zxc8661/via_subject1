@@ -114,7 +114,7 @@ function TodoItem({text,check,id}){
             
             < CheckCircle onClick={onToggle} >{check&&<MdDone/>}</ CheckCircle>
             <Text editing={editing}>{text}</Text>
-            <ChangeText editing={editing}  value={newtext} onChange={onChange}/>
+            <ChangeText editing={editing}  value={newtext} onChange={onChange}/> 
             <ChangeButton onClick={doneEditing} editing={editing}>완료</ChangeButton>
             <Change onClick={onEditing} editing={editing}><BsFillPencilFill/></Change>
             <Remove onClick={onRemove}><FaTrashAlt/></Remove>
